@@ -1,6 +1,6 @@
 {
   "name": "stylelint-scss-order",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configuration for Stylelint with SCSS and properties order",
   "main": "index.js",
   "scripts": {

@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/arenasv86/stylelint-scss-order/issues"
   },
-  "homepage": "https://github.com/arenasv86/stylelint-scss-order#readme"
+  "homepage": "https://github.com/arenasv86/stylelint-scss-order#readme",
+  "dependencies": {
+    "stylelint-order": "^2.2.1",
+    "stylelint-scss": "^3.6.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^10.0.1"
+  }
 }

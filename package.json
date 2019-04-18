@@ -1,0 +1,26 @@
+{
+  "name": "stylelint-scss-order",
+  "version": "1.0.0",
+  "description": "Configuration for Stylelint with SCSS and properties order",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arenasv86/stylelint-scss-order.git"
+  },
+  "keywords": [
+    "stylelint",
+    "scss",
+    "sasslint",
+    "order",
+    "smacss"
+  ],
+  "author": "Victor Arenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arenasv86/stylelint-scss-order/issues"
+  },
+  "homepage": "https://github.com/arenasv86/stylelint-scss-order#readme"
+}

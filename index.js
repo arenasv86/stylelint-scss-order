@@ -1,3 +1,6 @@
+// Custom Stylelint Config for Sass
+// https://github.com/bjankord/stylelint-config-sass-guidelines
+
 module.exports = {
   plugins: [
     'stylelint-order',
@@ -46,7 +49,7 @@ module.exports = {
     indentation: 2,
     'length-zero-no-unit': true,
     'max-nesting-depth': [
-      2,
+      3,
       {
         ignore: [
           'pseudo-classes',
@@ -81,6 +84,7 @@ module.exports = {
         {
           type: 'at-rule',
           name: 'include',
+          parameter: 'breakpoint',
           hasBlock: true,
         },
         'rules',
@@ -106,7 +110,10 @@ module.exports = {
       'flex-grow',
       'flex-shrink',
       'flex-wrap',
-      'oreder',
+      'align-items',
+      'justify-content',
+      'align-self',
+      'order',
       'columns',
       'column',
       'grid',
